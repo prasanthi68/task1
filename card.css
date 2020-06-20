@@ -40,3 +40,12 @@ a>h3{ color: white }
 h3{
 	color: black;
 }
+@media(min-width:320px ) and (max-width: 480px){
+.main{
+flex-direction: column-reverse;
+}
+.sub{
+width: 100%;
+}
+
+}
